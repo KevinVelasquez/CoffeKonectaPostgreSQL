@@ -1,0 +1,48 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+aside {
+    background-color: #333; 
+    color: white; 
+    width: 100%; 
+    padding: 20px; 
+    display: flex;  
+    justify-content: center; 
+    align-items: center;
+    font-size: larger;
+}
+
+.menu {
+    display: flex;  
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu li {
+    margin-bottom: 10px; 
+    padding: 5px;
+    border: 2px solid rgb(143, 160, 168);
+    border-radius: 5px;
+}
+
+.menu a {
+    text-decoration: none; 
+    color: white; 
+    cursor: pointer;
+}
+
+
+.menu li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+
+
+.btn-primary {
+    margin-top: 15px;
+}
+
+
+
+
