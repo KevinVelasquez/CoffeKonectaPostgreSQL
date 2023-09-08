@@ -11,7 +11,7 @@ return new class extends Migration
         Schema::create('sales', function (Blueprint $table) {
             $table->id();
             $table->integer('total');
-            $table->unsignedBigInteger('method_payment_id');
+            $table->bigInteger('method_payment_id');
             $table->timestamps();
 
             $table->foreign('method_payment_id')->references('id')->on('methods_payment');

@@ -10,7 +10,7 @@ return new class extends Migration
     {
         Schema::create('methods_payment', function (Blueprint $table) {
             $table->id();
-            $table->string('name')->unique();
+            $table->text('name')->unique();
             $table->timestamps();
         });
     }

@@ -10,11 +10,11 @@ return new class extends Migration
     {
         Schema::create('products', function (Blueprint $table) {
             $table->id();
-            $table->string('name_product');
-            $table->string('reference');
+            $table->text('name_product');
+            $table->text('reference');
             $table->integer('price');
             $table->integer('weight');
-            $table->string('category');
+            $table->text('category');
             $table->integer('stock');
             $table->timestamps('created_at');
         });
