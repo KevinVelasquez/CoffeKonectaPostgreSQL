@@ -11,7 +11,7 @@ Sigue estos pasos para instalar y ejecutar el proyecto:
 1. Clona este repositorio:
 
    ```bash
-   git clone https://github.com/KevinVelasquez/CoffeKonecta.git
+   git clone https://github.com/KevinVelasquez/CoffeKonectaPostgreSQL.git
 
    *Ve al directorio del proyecto:
    cd tu-proyecto
